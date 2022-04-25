@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/salle"
+            android:icon="@drawable/classroom_icon"
+            android:title="Salles" />
+        <item
+            android:id="@+id/machine"
+            android:icon="@drawable/laptop_icon"
+            android:title="Machines" />
+        <item
+            android:id="@+id/graph"
+            android:icon="@drawable/graph_icon"
+            android:title="Machines Par Salle" />
+        <item
+            android:id="@+id/etudiants"
+            android:icon="@drawable/graph_icon"
+            android:title="Etudiants" />
+    </group>
+</menu>

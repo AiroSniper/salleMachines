@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/salle">
+
+    <fragment
+        android:id="@+id/machine"
+        android:name="iir4.pfa.data.sqlite_nav.ui.MachineFragment"
+        android:label="Machines"
+        tools:layout="@layout/fragment_machine" />
+
+    <fragment
+        android:id="@+id/salle"
+        android:name="iir4.pfa.data.sqlite_nav.ui.SalleFragment"
+        android:label="Salles"
+        tools:layout="@layout/fragment_salle" />
+
+    <fragment
+        android:id="@+id/graph"
+        android:name="iir4.pfa.data.sqlite_nav.ui.GraphFragment"
+        android:label="Machines Par Salle"
+        tools:layout="@layout/fragment_graph" />
+    <fragment
+        android:id="@+id/etudiants"
+        android:name="iir4.pfa.data.sqlite_nav.ui.EtudiantFragment"
+        android:label="Machines Par Salle"
+        tools:layout="@layout/fragment_etudiant" />
+</navigation>
